@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Uppgift 1: Alert</title>
+</head>
+<body>
+<input type="text" id="Food" placeholder="Din favorit mat"/>
+<button onclick="showAlert()">Click me for to be welcomed</button>
+</body>
+<script>
+    function showAlert() {
+        var food = document.getElementById("Food").value
+        alert("Välkommen, din favorit mat är" + food)
+    }
+</script>
+</html>
